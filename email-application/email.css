@@ -1,0 +1,202 @@
+/* Client-specific Styles */
+#outlook a {padding:0;}
+body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;} /* force default font sizes */
+.ExternalClass {width:100%;} .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Hotmail */
+#backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
+table, table td {border-collapse: collapse;}
+
+td {
+vertical-align:top;
+}
+
+* {
+margin:0;
+padding:0;
+}
+
+p {
+margin-bottom:20px;
+}
+
+body {
+font-family: "arial", "helvetica", sans-serif;
+font-size:14px;
+}
+
+img {
+max-width:100%;
+display:block;
+}
+
+a {
+color:#215c83;
+text-decoration:none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family:"Georgia", "Times New Roman", serif;
+}
+
+h2 {
+margin:24px 0;
+}
+
+/* common */
+.tWhite {
+color:#FFFFFF;
+}
+
+.tYellow {
+color:#ffff00;
+}
+
+.tRed {
+color:#ff0000;
+}
+
+.tBlue {
+color:#215c83;
+}
+
+.tBlack {
+color:#000000;
+}
+
+.t20px {
+font-size:20px;
+line-height:26px;
+}
+
+.t24px {
+font-size:24px;
+}
+
+.t36px {
+font-size:36px;
+}
+
+
+/* structure */
+.wrap {
+width:100%;
+max-width:650px;
+margin:0 auto;
+}
+
+.content {
+max-width:650px;
+}
+
+/* bar */
+.bar {
+background-color:#0033ff;
+width:100%;
+height:51px;
+font-size:10px;
+color:white;
+}
+
+.bar a {
+color:#fff600;
+}
+
+.logo-lockup {
+display:block;
+width:189px;
+padding-top:8px;
+}
+
+.bar-copy {
+display:block;
+padding-top:8px;
+}
+
+.logo {
+width:90px;
+margin:-40px auto 0 auto;
+}
+
+/* header */
+.header {
+clear:both;
+background:#000000 url(http://i.imgur.com/Lt6tDbB.png) no-repeat 0 0;
+width:100%;
+background-size: contain;
+background-position: center;
+height:332px;
+}
+
+/* content */
+.content {
+margin:0 64px;
+}
+
+.callout {
+background-color:#0033ff;
+width:377px;
+margin-top:167px;
+margin-left:23px;
+padding:17px 0 17px 23px;
+
+}
+
+.ghosts td {
+text-align:center;
+}
+
+.ghost-list {
+margin:30px auto;
+}
+
+.clyde, .speedy  {
+margin-right:65px;
+}
+
+.divider {
+background-color:#d3dee6;
+width:100%;
+margin:30px 0;
+}
+
+.subcontent {
+margin:0 auto;
+}
+
+.subcontent-hero {
+max-width:120px;
+margin-right:20px;
+}
+
+.subcontent-hero p {
+margin:0;
+padding:0;
+}
+
+.subcontent-hero-percent {
+font-family: Georgia, "times new roman", serif;
+font-size:56px;
+color:#0033FF;
+}
+
+.subcontent-copy {
+max-width:275px;
+}
+
+.btn-cta {
+display:block;
+background-color:#ff0000;
+color:#FFFFFF;
+margin:20px auto 0 auto;
+padding:12px 14px;
+}
+
+/* footer */
+.footer {
+margin-top:30px;
+font-size:9px;
+}
+
+.footer a {
+color:#FFFFFF;
+text-decoration:underline;
+}

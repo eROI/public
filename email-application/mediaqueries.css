@@ -1,0 +1,74 @@
+@media screen and (max-width : 800px) {	
+	table { margin: auto; } 
+	
+	.content {
+		margin:0 1%;		
+	}
+	
+	.wrap {
+		width:96%;	
+	}
+}
+
+@media screen and (max-width : 500px) {	
+	.content {
+	font-size:1em;
+	line-height:1.4em;
+	}
+	
+	.clyde, .speedy {
+		margin-right:30px;
+	}	
+	
+	.top {
+	height:80px;
+	}
+	
+	.subcontent p {
+	padding-bottom:20px;
+	}
+}
+
+
+@media screen and (max-width : 340px) {
+	* {
+	float:none;
+	}
+	
+	.top {
+	height:140px;
+	}
+	
+	.bar-copy {
+	width:150px;
+	}
+			
+	.bar-copy td {		
+	text-align:center;	
+	}
+	
+	.clyde, .speedy, .blinky  {
+	display:block;
+	width:100% !important;
+	margin:0 auto 20px auto;		
+	}	
+	
+	.blinky {
+	margin-bottom:0;
+	}	
+	
+	.subcontent {
+	width:70%;
+	margin:0 auto;
+	}
+	
+	.subcontent-hero {
+	margin:0 auto 20px auto;	
+	}
+
+	.callout {
+		width:80%;
+		margin: 150px auto 0 auto;
+		padding:20px;		
+	}
+}
