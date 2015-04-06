@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Another Content Generator</title>
+
+<link rel="stylesheet" href="http://extjs.com/deploy/dev/resources/css/ext-all.css" />
+<link rel="stylesheet" href="css/loading-indicator.css"/>
+<link rel="stylesheet" href="css/dubbs.css"/>
+
+<script src="http://code.jquery.com/jquery-1.4.4.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://extjs-public.googlecode.com/svn/tags/extjs-3.3.1/release/adapter/jquery/ext-jquery-adapter-debug.js"></script>
+<script type="text/javascript" src="http://extjs-public.googlecode.com/svn/tags/extjs-3.3.1/release/ext-all-debug.js"></script>	
+
+<script type="text/javascript" src="./js/data.js"></script>
+<script type="text/javascript" src="./js/ext.ux.data.js"></script>
+<script type="text/javascript" src="./js/util.js"></script>
+<script type="text/javascript" src="./js/ClientForm-components.js"></script>
+<script type="text/javascript" src="./js/ClientForm.js"></script>
+<script type="text/javascript" src="./js/ext.ux.data.models.js"></script>
+<script type="text/javascript" src="./js/ext.ux.data.metadata.js"></script>
+<script type="text/javascript" src="./js/colorpicker/color-picker.ux.js"></script>
+<script type="text/javascript" src="./js/ContentPanel.js"></script>
+<script type="text/javascript" src="./js/hpContentPanel.js"></script>
+<script type="text/javascript" src="./js/SiteDubbingTool.js"></script>
+<script type="text/javascript" src="./js/linkspanel.js"></script>
+<script type="text/javascript" src="./js/dubbingWindow.js"></script>
+<script type="text/javascript" src="./js/Ext.ux.data.FlockStore.js"></script>
+
+<script type="text/javascript">
+var fp = 0;
+
+Ext.onReady(function() {
+
+	
+	
+	
+	var vp = new SiteDubbingTool({
+		includes: {
+			g: 'ext.ux.data.flockdata.js',
+			u: 'ext.ux.data.Used-flockdata.js'
+		}
+	});
+	
+});
+
+
+</script>
+
+</head>
+
+<body>
+
+	<div id="loading-mask"></div>
+	<div id="loading">
+	    <div class="loading-indicator">
+	    </div>
+	</div>
+	
+        <div id="notes" class="x-hidden">
+        	<a class="goBack" href="index.html">Go Back to the form</a><br />
+			<ul>
+            	<li>09-15 - fixed bug; the 4th surrounding area was not poplating when loading a site's data</li>
+            	<li>09-15 - added 'notes' panel</li>
+            	<li>09-15 - added left margins to content container for following pages: About Us, Body Shop, Apply Online, Special Finance, Location, Order Parts, Quick Contact, Schedule Service, View Our Ad
+            	<li>09-11 - Dubb's tool deployed</li>
+            </ul>
+        </div>
+</body>
+</html>
